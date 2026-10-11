@@ -1,0 +1,23 @@
+{
+	"name": "ds_superstorefrdl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dlforsuperstoredata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "testdata.csv",
+				"fileSystem": "dsfiles"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

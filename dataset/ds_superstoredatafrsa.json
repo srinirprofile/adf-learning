@@ -1,0 +1,23 @@
+{
+	"name": "ds_superstoredatafrsa",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_saforsuperstoredata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Sample - Superstore_new.csv",
+				"container": "safiles"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

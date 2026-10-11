@@ -1,0 +1,16 @@
+{
+	"name": "ds_sqldb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ds_superstoredata_sqldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SuperstoreOrders"
+		}
+	}
+}
