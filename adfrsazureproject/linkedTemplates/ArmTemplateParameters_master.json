@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfrsazureproject"
+		},
+		"ls_dlforsuperstoredata_accountKey": {
+			"value": ""
+		},
+		"ls_saforsuperstoredata_connectionString": {
+			"value": ""
+		},
+		"ds_superstoredata_sqldb_password": {
+			"value": ""
+		},
+		"ls_dlforsuperstoredata_properties_typeProperties_url": {
+			"value": "https://dlsriniazureproject.dfs.core.windows.net/"
+		},
+		"ds_superstoredata_sqldb_properties_typeProperties_server": {
+			"value": "sqlserver-azureproject.database.windows.net"
+		},
+		"ds_superstoredata_sqldb_properties_typeProperties_database": {
+			"value": "db"
+		},
+		"ds_superstoredata_sqldb_properties_typeProperties_userName": {
+			"value": "srini"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
