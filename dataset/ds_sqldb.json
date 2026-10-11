@@ -7,7 +7,100 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "Row ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Order ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Order Date",
+				"type": "varchar"
+			},
+			{
+				"name": "Ship Date",
+				"type": "varchar"
+			},
+			{
+				"name": "Ship Mode",
+				"type": "varchar"
+			},
+			{
+				"name": "Customer ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Customer Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Segment",
+				"type": "varchar"
+			},
+			{
+				"name": "Country/Region",
+				"type": "varchar"
+			},
+			{
+				"name": "City",
+				"type": "varchar"
+			},
+			{
+				"name": "State/Province",
+				"type": "varchar"
+			},
+			{
+				"name": "Postal Code",
+				"type": "varchar"
+			},
+			{
+				"name": "Region",
+				"type": "varchar"
+			},
+			{
+				"name": "Product ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Category",
+				"type": "varchar"
+			},
+			{
+				"name": "Sub-Category",
+				"type": "varchar"
+			},
+			{
+				"name": "Product Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Sales",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "Quantity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Discount",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 4
+			},
+			{
+				"name": "Profit",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			}
+		],
 		"typeProperties": {
 			"schema": "dbo",
 			"table": "SuperstoreOrders"
